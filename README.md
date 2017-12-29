@@ -1,2 +1,4 @@
 # CRUD
-Aplicação Web de um CRUD de produtos baseado em Spring Boot e MVC.
+1- Aplicação Web de um CRUD de produtos baseado em Spring Boot MVC.
+A aplicação foi desenvolvida na linguagem Java (JDK 1.8). O Maven gerencia as depencias do projeto (ferramentas do desenvolvimento) e está relacionado com o arquivo pom.xml. O Maven já vem embarcado no STS. O ambiente de desenvolvimento Spring Tool Suite (STS) é baseado no Eclipse e oferece todo o suporte para o Spring Boot. O Thymeleaf é uma biblioteca Java muito útil no Spring MVC e usada nas tags HTML para dar mais dinamismo na aplicação. O MySql foi o banco de dados usado para guardar os dados cadastrados na aplicação. Para deixar uma aparência mais bonita foi utilzado o Boostrap para as configurações de CSS trabalhando juntamente com o JQuery. Para usar um "model fade" do Boostrap foi necessário desenvolver um pequeno código em linguagem JaveScript.
+2- Para iniciar a aplicação é necessário rodar o arquivo principal do projeto (CrudApplication) como "Spring Boot App". o Banco de dados precisa estar criado e configurado no arquivo "application.properties" com o nome, senha e nome do banco de dados.
